@@ -36,10 +36,8 @@ storage = []
 end
 
 def kesha_maker(array)
-  storage = []
   array.each do |word|
     word[2] = "$"
-    
   end
   array
 end
