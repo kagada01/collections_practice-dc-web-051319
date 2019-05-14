@@ -49,6 +49,7 @@ def find_a(array)
     storage << word
     end
   end
+  storage
 end
 
 
