@@ -36,10 +36,7 @@ storage = []
 end
 
 def kesha_maker(array)
-  array.collect do |word|
-    if word == array[2]
-      sub(array[2], "$")
-  end
+  
 end
 
 
