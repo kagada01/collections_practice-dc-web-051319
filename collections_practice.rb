@@ -28,5 +28,6 @@ def swap_elements(array)
       binding.pry
     end
   end
+  array
 end
 
