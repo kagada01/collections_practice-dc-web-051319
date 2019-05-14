@@ -59,8 +59,9 @@ end
 def add_s(array)
   storage = []
   array.each do |word|
-    word + "s"
+    storage.push(word + "s")
   end
+  storage
 end
 
 
