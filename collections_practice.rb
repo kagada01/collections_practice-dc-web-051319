@@ -1,7 +1,7 @@
 require 'pry'
 
 def sort_array_asc(array)
-  array.each_with_object([]) do |element|
+  array.each do |element|
     
   end.sort  
 end
