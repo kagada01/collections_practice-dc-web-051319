@@ -17,7 +17,7 @@ end
 def sort_array_char_count(array)
   array.sort do |a, b| 
     if (a > b) 
-      a <=> b
+      b <=> a
     #binding.pry
     end
   end
