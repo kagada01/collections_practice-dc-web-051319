@@ -28,7 +28,11 @@ end
 
 
 def reverse_array(array)
-
+storage = []
+  array.each do |element|
+    storage.push(element)
+  end
+  storage.reverse
   
 end
 
