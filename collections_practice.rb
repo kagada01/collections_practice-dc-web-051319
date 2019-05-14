@@ -22,9 +22,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-   binding.pry
-  array[1] <=> array[2]
-  array
- 
+  array.each do |element|
+  
+  
+  end
 end
 
