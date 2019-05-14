@@ -36,7 +36,7 @@ storage = []
 end
 
 def kesha_maker(array)
-  array.collect do |word|
+  array.map do |word|
   word[2] == "$"
   end
   array
