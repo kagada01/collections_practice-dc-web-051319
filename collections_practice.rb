@@ -57,6 +57,7 @@ def sum_array(array)
 end
 
 def add_s(array)
+  storage = []
   array.each do |word|
     word + "s"
   end
