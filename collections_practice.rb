@@ -59,7 +59,7 @@ end
 def add_s(array)
   storage = []
   array.each do |word|
-    storage.push(word + "s")
+    storage.push(word + "s") unless 
   end
   storage
 end
