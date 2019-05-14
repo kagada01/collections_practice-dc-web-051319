@@ -44,12 +44,11 @@ end
 
 def find_a(array)
   storage = []
-  array.each do |word|
+  array.collect do |word|
     if word.start_with?("a")
     storage << word
     end
   end
-  storage
 end
 
 
