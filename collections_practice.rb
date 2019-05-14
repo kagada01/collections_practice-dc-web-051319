@@ -5,5 +5,5 @@ def sort_array_asc(array)
   array.each do |element|
     storage.push(element)
   end
-  storage
+  storage.sort
 end
