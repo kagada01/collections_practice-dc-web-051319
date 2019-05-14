@@ -37,7 +37,7 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
-    word.insert(2, "$")
+    word.sub(array[2], "$")
   end
 end
 
