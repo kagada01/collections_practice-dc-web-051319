@@ -9,5 +9,9 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  binding.pry
+  storage = []
+  array.each do |element|
+    storage.push(element)
+  end
+  storage.reverse
 end
