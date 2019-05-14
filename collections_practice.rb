@@ -52,7 +52,6 @@ def find_a(array)
   storage
 end
 
-
 def sum_array(array)
   array.sum
 end
