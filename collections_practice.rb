@@ -7,3 +7,7 @@ def sort_array_asc(array)
   end
   storage.sort
 end
+
+def sort_array_desc(array)
+  
+end
