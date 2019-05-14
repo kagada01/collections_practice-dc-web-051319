@@ -33,7 +33,6 @@ storage = []
     storage.push(element)
   end
   storage.reverse
-  
 end
 
 
