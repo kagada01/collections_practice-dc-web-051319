@@ -37,7 +37,8 @@ end
 
 def kesha_maker(array)
   array.collect do |word|
-    word.sub(array[2], "$")
+    if word == array[2]
+      sub(array[2], "$")
   end
 end
 
