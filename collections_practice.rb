@@ -25,7 +25,7 @@ def swap_elements(array)
   array.each do |element|
     if element == array[1]
       array[1] <=> array[2]
-      binding.pry
+      #binding.pry
     end
   end
   array
