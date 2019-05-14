@@ -10,7 +10,6 @@ end
 
 def sort_array_desc(array)
   array.sort do |a, b|
-    storage.push(element)
+    b <=> a
   end
-  storage.reverse
 end
