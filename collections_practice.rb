@@ -22,12 +22,6 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.each do |element|
-    if element == array[1]
-      array[1] <=> array[2]
-      #binding.pry
-    end
-  end
-  array
+  array[1], 
 end
 
