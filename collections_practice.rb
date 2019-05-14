@@ -9,7 +9,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort do |element|
+  array.sort do |a, b|
     storage.push(element)
   end
   storage.reverse
