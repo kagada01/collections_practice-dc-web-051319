@@ -19,5 +19,6 @@ def sort_array_char_count(array)
     if (a > b) 
       a <=> b
     #binding.pry
+    end
   end
 end
