@@ -45,7 +45,7 @@ end
 def find_a(array)
   storage = []
   array.each do |word|
-    ifword.start_with?("a")
+    if word.start_with?("a")
     storage << word
   end
   storage
