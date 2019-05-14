@@ -35,6 +35,8 @@ storage = []
   storage.reverse
 end
 
-
+def kesha_maker(array)
+  
+end
 
 
